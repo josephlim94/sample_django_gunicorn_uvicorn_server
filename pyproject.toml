@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sample_django_gunicorn_uvicorn_server"
+version = "0.1.0"
+description = "Sample project"
+authors = ["Joseph Lim <josephlim_94@hotmail.co.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.3"
+gunicorn = "^20.1.0"
+uvicorn = "^0.17.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
