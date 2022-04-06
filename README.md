@@ -1,0 +1,2 @@
+# sample_django_gunicorn_uvicorn_server
+Sample project
